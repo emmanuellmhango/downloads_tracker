@@ -1,0 +1,11 @@
+<% content_for :title, "New download" %>
+
+<h1>New download</h1>
+
+<%= render "form", download: @download %>
+
+<br>
+
+<div>
+  <%= link_to "Back to downloads", downloads_path %>
+</div>
